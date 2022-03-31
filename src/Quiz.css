@@ -1,0 +1,117 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: Arial;
+}
+#root {
+  height: 100%;
+}
+main {
+  height: 100%;
+}
+.landing-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page > h1 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.landing-page > p {
+  font-size: 18px;
+  letter-spacing: 1.75px;
+}
+
+.landing-page > button {
+  border: none;
+  background-color: aquamarine;
+  font-size: 20px;
+  letter-spacing: 3px;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+
+.landing-page > button:hover {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+/* QUESTIONS AND WHAT NoT */
+.questions {
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  /* margin-top: 30px; */
+}
+
+.container {
+  margin-top: 35px;
+  max-width: 900px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* answers */
+.answer {
+  margin-bottom: 20px;
+}
+
+.answer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  
+}
+
+.input {
+  display: none;
+}
+.input:checked + .label {
+  background-color: lightgoldenrodyellow;
+  border-style: solid;
+}
+
+.label {
+  background-color: rgb(255, 209, 216);
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 7px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+
+.true {
+  background-color: lightgreen !important;
+}
+
+.button {
+  border: none;
+  background-color: rgb(211, 210, 255);
+  padding: 10px;
+  margin-top: 35px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: rgb(194, 255, 253);
+}
+
+.score {
+  font-size: 20px;
+  margin-left: 15px;
+  letter-spacing: 1.5px;
+}
