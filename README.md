@@ -1,5 +1,7 @@
 # quizzical
 
+Live Site: https://majestic-fenglisu-72dc22.netlify.app/
+
 Using useEffect, the app requests an object containing 5 questions from Open Trivia Database and stores it into state (allQuestions)
 Then, there is another useEffect that listens for the allQuestions state. It's function is to randomize the answers .forEach() question, and save it into another state called allAnswers.
 
